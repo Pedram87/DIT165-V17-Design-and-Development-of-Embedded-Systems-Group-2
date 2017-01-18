@@ -8,7 +8,7 @@ File name: exerc_x_y.c (or cpp)
 
 Date: 2017-mm-dd
 
-Group Number: 33
+Group Number: 2
 
 Members that contributed:
 

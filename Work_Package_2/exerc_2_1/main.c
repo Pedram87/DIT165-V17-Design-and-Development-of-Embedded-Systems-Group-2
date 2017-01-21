@@ -35,7 +35,5 @@ Where Exerc_2_1 is the filename of the compiled program.*/
 int main()
 {
 
-
-
-return 0;
+    return 0;
 }

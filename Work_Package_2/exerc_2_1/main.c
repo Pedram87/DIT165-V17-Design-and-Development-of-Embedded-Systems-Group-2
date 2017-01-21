@@ -3,7 +3,7 @@
 
 /* ====================================
 
-File name: exerc_x_y.c (or cpp)
+File name: exerc_2_1.c (or cpp)
 
 Date: 2017-mm-dd
 

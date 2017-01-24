@@ -34,19 +34,6 @@ Where Exerc_2_1 is the filename of the compiled program.*/
 
 int main()
 {
-    //Declare source and destination string literals.
-    char string_src[20];
-    char string_destination[20];
-
-    //Receive input from user.
-    printf("Enter a string of maximum 20 characters:");
-    scanf("%s",string_src);
-
-    //a)
-    strcpy(string_destination,string_src);
-
-    //Print string output
-     printf("%s",string_destination);
 
     return 0;
 }

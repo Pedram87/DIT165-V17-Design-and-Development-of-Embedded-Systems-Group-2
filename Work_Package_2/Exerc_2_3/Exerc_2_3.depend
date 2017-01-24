@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1485251837 source:c:\users\pedram.shirinbolaghi\desktop\github repos\dit165-v17-design-and-development-of-embedded-systems-group-2\work_package_2\exerc_2_3\main.c
+	<stdio.h>
+	<stdlib.h>
+

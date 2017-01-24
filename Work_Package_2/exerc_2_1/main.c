@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define MAXCHAR 20
 
 /* ====================================
 
@@ -38,9 +39,12 @@ int main()
     char string_src[20];
     char string_destination[20];
 
-    //Receive input from user.
-    printf("Enter a string of maximum 20 characters:");
+    //Receive input from user .
+    printf("Enter a string of maximum 20 characters")
     scanf("%s",string_src);
+
+    //Make sure only 20 chars can be entered, if larger end then the program.
+
 
     //a)
     strcpy(string_destination,string_src);

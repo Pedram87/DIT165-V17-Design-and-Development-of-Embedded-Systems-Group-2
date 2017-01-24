@@ -24,19 +24,19 @@ int main(){
     char string1[MAX], string2[MAX];
     int returnValue;
     
-
+    
     printf("Please type the first string: ");
     scanf("%s", string1);
-    printf("Please type the first string: ");
+    printf("Please type the second string: ");
     scanf("%s", string2);
     
     printf("String 1 is: %s\nString 2 is: %s\n\n", string1, string2);
     returnValue = strcmp(string1, string2);
     
     if(returnValue == 0){
-        printf("The strings are identical because of return value %d\n\n", returnValue);
+        printf("strcmp()-method: The strings are identical because of return value %d\n\n", returnValue);
     }else{
-        printf("The string are NOT identical because of return value %d\n\n", returnValue);
+        printf("strcmp()-method: The string are NOT identical because of return value %d\n\n", returnValue);
     }
     
     compareStrings(string1, string2);

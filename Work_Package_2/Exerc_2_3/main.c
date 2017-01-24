@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #define MAXCHAR 20
+
 /*Create a program that reads two strings from the command line when it starts and checks if it is two
 strings and if the two strings are identical or not. Do this with and without use of library function
 strcmp(..). Let the program print out the result in any way */
@@ -28,7 +30,11 @@ Important , No code no bonus !
 
 ====================================== */
 
-int main()
+//Function to use instead of strcmp().
+int compareString(char[], char[]);
+
+
+int main(int *argc, char *argv[])
 {
 
     //Declare two strings.
@@ -44,13 +50,25 @@ int main()
     scanf("%s",string2);
 
     //Using strcmp() check if both strings are equal.
-    if (strcmp(string1,string2) == 0)
+    /*if (strcmp(string1,string2) == 0)
       printf("Entered strings are equal.\n");
    else
-      printf("Entered strings are not equal.\n");
+      printf("Entered strings are not equal.\n"); */
 
-    //Check if strings are identical.
+    //Check if strings are identical without strcmp().
+    int comparedStringResult;
+    comparedStringResult = compareString(argv[1], argc[2]);
+		if (comparedStringResult == 1) {
+			printf("Without strcmp: The strings are identical\n");
+			return EXIT_SUCCESS;
+		} else {
+			printf("Without strcmp: The strings are not identical\n");
+			return EXIT_FAILURE;}
+            return 0;
 
-
-    return 0;
 }
+
+
+
+
+

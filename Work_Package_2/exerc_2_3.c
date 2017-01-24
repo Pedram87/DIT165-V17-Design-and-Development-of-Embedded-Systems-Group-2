@@ -21,13 +21,17 @@ int main(){
      Do this with and without use of library function strcmp(..).
      Let the program print out the result in any way.*/
     
-    char *string1[MAX], *string2[MAX];
+    char string1[MAX], string2[MAX];
     int returnValue;
     
-    *string1 = "hejsan";
-    *string2 = "Hejsan";
-    printf("String 1 is: %s\nString 2 is: %s\n\n", *string1, *string2);
-    returnValue = strcmp(*string1, *string2);
+
+    printf("Please type the first string: ");
+    scanf("%s", string1);
+    printf("Please type the first string: ");
+    scanf("%s", string2);
+    
+    printf("String 1 is: %s\nString 2 is: %s\n\n", string1, string2);
+    returnValue = strcmp(string1, string2);
     
     if(returnValue == 0){
         printf("The strings are identical because of return value %d\n\n", returnValue);
@@ -35,7 +39,7 @@ int main(){
         printf("The string are NOT identical because of return value %d\n\n", returnValue);
     }
     
-    compareStrings(*string1, *string2);
+    compareStrings(string1, string2);
     
     
     return 0;
@@ -46,6 +50,7 @@ int compareStrings(char string1[], char string2[]){
     for(int i = 0;string1[i] != '\0' && string2[i] != '\0'; i++){
         if(string1[i] != string2[i]){
             result = 0; // 0 means that the strings are not identical, hence we can break the loop and return the result
+            break;
         }
     }
     printf((result == 1) ? "Own method: The strings are identical\n" : "Own method: The strings are NOT identical\n" );

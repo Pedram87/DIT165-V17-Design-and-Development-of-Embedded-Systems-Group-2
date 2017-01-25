@@ -31,7 +31,7 @@ int main(){
      The value of the label array (address) is: xxxxxxxxxx First integer in the array is (array[0]) : xxxxxxxxxx
      The size of an integer (number of bytes) is : xxxxxxxxx The size of the whole array is : xxxxxxxxx
      End the program by printing out the array, then double all values in the array by use of a pointer and print it out again.*/
-    printf("The value of the label array (address) is: %d\n", &array);
+    printf("The value of the label array (address) is: %p\n", &array);
     
     for(i = 0; i < MAX; i++){
         number = 0;

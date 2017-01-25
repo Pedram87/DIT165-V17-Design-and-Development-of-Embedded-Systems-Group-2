@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1485369136 source:c:\users\pedra\desktop\github repos\dit165-v17-design-and-development-of-embedded-systems-group-2\work_package_2\exerc_2_5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

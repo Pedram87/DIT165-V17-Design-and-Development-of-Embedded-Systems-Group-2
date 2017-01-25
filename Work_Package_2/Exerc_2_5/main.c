@@ -67,16 +67,19 @@ void count_frequency(int tab[], int freq[] );
 void draw_histogram(int freq[] );
 
 //Declare main and array for table and frequency as described.
-int main ( void){
+int main (void){
 int table[MAX], n ;
 int frequency[MAXNUMBER];
 
 //A function that for each possible number between 0 – MAXNUMBER
 //calculates how many times the number exists in the array.
-create_random(table[MAX]);
+void create_random(table);
 //Loop through the array for table[MAX] to check if numbers between 0-MAXNUMBER exists.
-for(int i =0; i<MAXNUMBER; ++i)
+int i;
+for(i =0; i<MAXNUMBER; ++i){
 //Store the result variable i in frequency[] array.
-frequency[i] =0;
+frequency[i] =0;}
+
+
 
 }

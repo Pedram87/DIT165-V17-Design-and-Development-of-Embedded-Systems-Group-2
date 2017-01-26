@@ -1,3 +1,8 @@
+/*
+  mgbah robinson iheanaco
+  26th januari 2016
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

@@ -1,7 +1,12 @@
+/*
+mgbah robinson iheanacho
+26 Januari 2017
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 #define MAX 20
 
 

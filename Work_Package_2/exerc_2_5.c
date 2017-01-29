@@ -21,7 +21,7 @@ void draw_histogram(int *freq);
 
 int main(){
     
-    int tabell[MAX], n;
+    int tabell[MAX];
     int frekvens[MAXNUMBER];
     
     /* You should develop a program that calculates some statistical values for an array of integers. Among other things, the program will plot a histogram for the frequency of the different input numbers in the array.

@@ -1,6 +1,24 @@
-/*
-  author: mgbah robinson iheanacho
- */
+/* ====================================
+
+File name: exerc_2_4.c (or cpp)
+
+Date: 2017-mm-dd
+
+Group Number: 2
+
+Members that contributed:
+
+Pedram Shirinbolaghi
+
+Jonas Torstensson
+
+Robinson Iheanacho Mgbah
+
+Demonstration code: [ ]
+
+Important , No code no bonus !
+
+====================================== */
 
 #include <stdio.h>
 #include <stdlib.h>

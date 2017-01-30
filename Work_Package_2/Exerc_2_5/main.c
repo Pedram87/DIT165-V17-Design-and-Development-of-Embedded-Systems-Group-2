@@ -73,13 +73,16 @@ int frequency[MAXNUMBER];
 
 //A function that for each possible number between 0 – MAXNUMBER
 //calculates how many times the number exists in the array.
-void create_random(table);
+void create_random(table);{
 //Loop through the array for table[MAX] to check if numbers between 0-MAXNUMBER exists.
 int i;
 for(i =0; i<MAXNUMBER; ++i){
 //Store the result variable i in frequency[] array.
 frequency[i] =0;}
+}
 
+void count_frequency(frequency){
 
+}
 
 }

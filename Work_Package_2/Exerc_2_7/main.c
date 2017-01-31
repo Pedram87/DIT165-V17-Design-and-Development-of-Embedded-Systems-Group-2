@@ -95,11 +95,13 @@ int controlDigit(const char * persnr){
 int main(int argc, char*argv[]) {
 
     do {
+
         printf("Enter a person number: \n");
-            fgets(inputNumbers, MAX_RANGE, stdin);
+            fgets(*inputNumbers, MAX_RANGE, stdin);
             readPersnr(inputNumbers);
             if (inputNumbers[0] =='q') {
                 printf("q has been used as input");
+                free(*inputNumbers);
 
                 //EXIT_FAILURE;
                 break;
@@ -108,6 +110,7 @@ int main(int argc, char*argv[]) {
 
             }
         } while (1);
+
 
         return 0;
 

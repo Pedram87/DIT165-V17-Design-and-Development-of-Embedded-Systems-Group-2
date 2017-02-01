@@ -87,7 +87,7 @@ void write_winner(int player){
   if(player == 0){
     printf("Hehe jag vann :(\n");
   }else
-    printf("Grattis! Du vann :)'n");
+    printf("Grattis! Du vann :)\n");
 }
 
 

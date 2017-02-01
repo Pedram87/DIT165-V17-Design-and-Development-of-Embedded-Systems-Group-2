@@ -1,19 +1,8 @@
 /* ====================================
 
-File name: exerc_2_7.c (or cpp)
-Date: 2017-1-31
-Group Number: 2
-Members that contributed:
-Pedram Shirinbolaghi
-Jonas Torstensson
-Robinson Iheanacho Mgbah
-Demonstration code: [ ]
-Important , No code no bonus !
-=======
-
 File name: exerc_2_6.c (or cpp)
 
-Date: 2017-mm-dd
+Date: 2017-02-01
 
 Group Number: 2
 
@@ -28,7 +17,6 @@ Robinson Iheanacho Mgbah
 Demonstration code: [ ]
 
 Important , No code no bonus !
-
 
 ====================================== */
 
